@@ -1,5 +1,5 @@
 # Mixed-Partner-Functions
----------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------Question 1----------------------------------------------------------------------------------
 //Space Station Docking Countdown: 
 //Write a functiondocking_countdown()that counts down from 20 in increments
 //of 3 (20, 17, 14, etc.) and then prints "Docking complete!" 
@@ -23,7 +23,7 @@ void docking_countdown() {
 	if (num = 0);
 		cout << "Docking complete!" << endl;
 }
----------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------Question 2---------------------------------------------------------------------------------
 //Truck Weight Check: Write a function truck_weight_check(int load_weight) 
 //that takes a parameter integer load_weight (in kilograms) and prints "Overweight!" if it’s over 1200 kg,
 //otherwise print "Within limit." This function doesn't return anything.
@@ -45,7 +45,7 @@ void truck_weight_check(int load_weight) {
 	}
 
 }
----------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------Question 3-------------------------------------------------------------------------------------
 //School Zone Signal: Write a function school_zone_signal(string signal_color) that takes a parameter 
 //string signal_color (either "Red", "Yellow", or "Green") and advises "Stop", "Be Ready", or "Proceed" accordingly. 
 //This function doesn't return anything
@@ -71,7 +71,7 @@ void school_zone_signal(string signal_color) {
 
 
 }
----------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------Question 4-------------------------------------------------------------------------------------
 //Museum Ticket Pricing: Write a function get_ticket_price(int visitor_age) that calculates the admission price for a museum
 //: $8 for children under 10, $18 for teens and adults under 60, and $12 for seniors 60 and older. 
 //The price should be returned as an integer and called in a cout statement.
@@ -96,7 +96,7 @@ void get_ticket_price(int visitor_age) {
 	}
 
 }
----------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------Question 5-------------------------------------------------------------------------------------
 //Username Verification: Write a function verify_username() that continually asks the user for a username until they enter "CodeMaster123",
 //at which point the function prints "Access Granted!" This function doesn't take any parameters and doesn't return anything.
 
